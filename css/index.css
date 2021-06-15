@@ -1,0 +1,209 @@
+body {
+  min-width: 320px;
+  max-width: 720px;
+  margin: 0 auto;
+  background-color: #f2f4f7;
+}
+a {
+  text-decoration: none;
+  color: #707070;
+}
+@media screen and (min-width: 750px) {
+  html {
+    font-size: 37.5px !important;
+  }
+}
+/* 头部 */
+.warp {
+  background-color: #fff;
+  padding-bottom: 1.146667rem;
+}
+.header {
+  height: 2.133333rem;
+  border-bottom: 1px solid #eaeaea;
+  text-align: center;
+  line-height: 2.133333rem;
+  font-size: 0.933333rem;
+  color: #1c1c1c;
+}
+/* nav部分 */
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1.173333rem 0 1.6rem 0;
+}
+.nav .item {
+  display: flex;
+  width: 33.3%;
+  flex-direction: column;
+  align-items: center;
+}
+.nav .item img {
+  width: 3.626667rem;
+  height: 3.626667rem;
+  margin-bottom: 0.426667rem;
+}
+.nav .item span {
+  font-size: 0.666667rem;
+  color: #707070;
+}
+.nav .item:nth-child(-n+3) {
+  margin-bottom: 1.84rem;
+}
+/* go模块 */
+.go {
+  margin: 0 0.48rem 0 10px;
+  margin-top: 0.266667rem;
+}
+.content {
+  background-color: #fff;
+  margin-top: 0.266667rem;
+  padding: 1.066667rem 0.64rem 1.013333rem 0.586667rem;
+}
+.content .con-hd {
+  display: flex;
+  justify-content: space-between;
+  height: 1.013333rem;
+  line-height: 1.013333rem;
+}
+.content .con-hd h4 {
+  font-size: 0.746667rem;
+  color: #333333;
+  margin: 0;
+}
+.content .con-hd h4 .icon {
+  display: inline-block;
+  width: 1.013333rem;
+  height: 1.013333rem;
+  vertical-align: middle;
+  margin-right: 0.48rem;
+}
+.content .con-hd a {
+  font-size: 0.586667rem;
+  color: #999999;
+}
+/* 旋转木马轮播图模块 */
+.get_job_focus {
+  position: relative;
+  margin-top: 1.146667rem;
+}
+.get_job_focus .swiper-container {
+  height: 100%;
+  width: 14.4rem;
+}
+.get_job_focus .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  transition: 300ms;
+  transform: scale(0.8);
+  opacity: 0.5;
+}
+.get_job_focus .swiper-slide-active,
+.get_job_focus .swiper-slide-duplicate-active {
+  transform: scale(1);
+  opacity: 1;
+  z-index: 999;
+}
+.get_job_focus a {
+  width: 9.013333rem;
+  height: 10.026667rem;
+}
+.get_job_focus a img {
+  width: 100%;
+  height: 100%;
+}
+.get_job_focus p {
+  width: 9.013333rem;
+  font-size: 0.666667rem;
+  margin-top: 0.64rem;
+  color: #333333;
+}
+.get_job_focus .swiper-button-next:after,
+.get_job_focus .swiper-button-prev:after {
+  font-size: 1.066667rem;
+  color: #333;
+}
+/* 充电学习模块 */
+.study_con {
+  padding-bottom: 3.733333rem;
+}
+.study .study_fo {
+  padding-top: 1.04rem;
+}
+.study .swiper-container {
+  width: 100%;
+  height: 100%;
+}
+.study .swiper-slide {
+  text-align: left;
+  font-size: 18px;
+  background: #fff;
+  width: 7.253333rem;
+  height: 9rem;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.266667rem;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  padding-top: 0.266667rem;
+}
+.study .swiper-slide img {
+  width: 100%;
+}
+.study .swiper-slide h5 {
+  margin: 0.533333rem 0;
+  font-size: 0.693333rem;
+  font-weight: 400;
+  padding: 0 0.266667rem;
+  line-height: 1.5;
+}
+.study .swiper-slide p {
+  font-size: 0.693333rem;
+  color: #ff4400;
+  padding: 0 0.266667rem;
+}
+.footer {
+  display: flex;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 999;
+  height: 2.933333rem;
+  padding-top: 0.533333rem;
+  background-color: #fff;
+  border-top: 1px solid #ccc;
+}
+.footer .item {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer .item img {
+  width: 1.04rem;
+  height: 1.093333rem;
+}
+.footer .item p {
+  font-size: 0.586667rem;
+  color: #666666;
+  margin-top: 0.266667rem;
+}
